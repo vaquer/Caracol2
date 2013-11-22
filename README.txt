@@ -1,0 +1,1 @@
+Pequeño framework o intento de framework para agilizar el desarrollo de aplicaciones en PHP

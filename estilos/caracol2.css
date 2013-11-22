@@ -1,0 +1,387 @@
+
+/*************************************************************************************************************************************************************************************************
+																			ESTURUCTURA GENERAL
+*************************************************************************************************************************************************************************************************/
+body{
+	padding:0px;
+	margin:0px;
+	background-color:#D9D7D5;
+	color:#323232;
+	font:bold 13px Calibri, Helvetica, sans-serif;	
+}
+input{
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border:2px solid #CCCCCC;
+	font:bold 14px Calibri, Helvetica, sans-serif;
+}
+input:hover{
+	border-color:#B5CAE1;
+}
+select:hover{
+	border-color:#B5CAE1;
+}
+textarea:hover{
+	border-color:#B5CAE1;
+}
+
+input:focus{
+	border-color:#B5CAE1;
+}
+select:focus{
+	border-color:#B5CAE1;
+}
+textarea:focus{
+	border-color:#B5CAE1;
+}
+select{
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border:2px solid #CCCCCC;
+	font:bold 14px Calibri, Helvetica, sans-serif;
+}
+textarea{
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border:2px solid #CCCCCC;
+	font:bold 14px Calibri, Helvetica, sans-serif;		
+}
+a{
+	color:#5083BC;
+}
+
+#cabeza{
+	width:100%;
+	height:216px;
+	background-color:#323232;
+}
+#cuerpo{
+	width:100%;
+	padding-bottom:20px;
+}
+#pie{
+	width:100%;
+	height:72px;
+	background-image: url('../imagenes/fondo_pie.png');	
+}
+#navegacion{
+	width:100%;
+	height:108px;	
+	background-image: url('../imagenes/fondo_nav.png');
+}
+#logo_nav{
+	float:left;
+	width:387px;
+	height:108px;
+	margin-left:15%;
+	background-image: url('../imagenes/logo_nav.png');
+}
+#menu_nav{
+	float:left;
+	width:50%;
+	height:108px;	
+}
+#nom_sist{
+	float:left;  
+	margin-left:15%;
+	text-transform:uppercase;
+	width:482px;
+	height:108px;
+	text-decoration:none;
+	color:#E6D958;
+	font:bold 34px Calibri, Helvetica, sans-serif;
+}
+#nombre_sistema{
+	margin-left:5px;
+	margin-top:25px;
+}
+#det_sist{
+	float:left;
+	width:50%;
+	height:108px;
+}
+#logo_nav{
+	float:left;
+	width:387px;
+	height:108px;
+	margin-left:15%;
+	background-image: url('../imagenes/logo_nav.png');
+}
+#barra{
+	width:100%;
+	height:57px;
+	background-image: url('../imagenes/fondo_barra.png');
+}
+#contenido{
+	width:100%;
+	height:560px;	
+	
+	padding-top:30px;	
+}
+
+#vista{
+	margin-left:15%;
+	width:70%;	
+}
+#logo_pie{
+	float:left;
+	width:387px;
+	height:72px;
+	margin-left:15%;
+	background-image: url('../imagenes/logo_pie.png');
+}
+#pie_direccíon{
+	float:left;
+	width:50%;
+	height:72px;
+}
+#pie_direccíon p{
+	padding-left:350px;
+	padding-top:20px;
+	color:#4A4A4A;
+	text-decoration:none;
+	font:normal 12px Calibri, Helvetica, sans-serif;
+}
+#seccion_activa{
+	width:247px;
+	height:115px;
+	position:absolute;
+	z-index:10000;
+	*position:absolute;
+	*z-index:10000;
+	top:179px; 
+	left:16%;
+	*top: 179px;
+	*left:16%;	
+	background-image: url('../imagenes/activo.png');
+}
+#seccion_activa_txt{
+	padding-left:79px;
+	padding-top:55px;
+	color:#000000;
+	text-decoration:none;
+	font:bold 25px Calibri, Helvetica, sans-serif;
+}
+/*************************************************************************************************************************************************************************************************
+																			MENU GENERAL
+*************************************************************************************************************************************************************************************************/
+#menu_nav ul li {
+	display:block; 
+	padding:30px 5px 0 0;
+	float:left;
+	margin:0 0 0 0;
+	padding:30px 5px 0 0 !important;
+	position:relative;
+	color:#FFFFFF;
+	text-decoration:none;
+	font:normal 18px Agency FB, Helvetica, sans-serif;	
+}
+#menu_nav ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	font:normal 18px Agency FB, Helvetica, sans-serif;
+}
+#menu_nav ul li a:hover{
+	text-decoration:none;
+	color:#E7DA58;
+	font:normal 18px Agency FB, Helvetica, sans-serif;
+}
+
+/*************************************************************************************************************************************************************************************************
+																			ESTILO CONTENIDO
+*************************************************************************************************************************************************************************************************/
+#vista h1{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#FDFDFD;
+	font:bold 32px Calibri, Helvetica, sans-serif;
+}
+#vista_titulo{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#FDFDFD;
+	
+	font:bold 32px Calibri, Helvetica, sans-serif;
+}
+#titulo_1000{
+	background-color:#323232;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#E6D958;
+	width:100%;
+	*width:1130px;
+	font:normal 20px Calibri, Helvetica, sans-serif;
+}
+#subtitulo{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#96988F;
+	font:normal 20px Calibri, Helvetica, sans-serif;	
+}
+/*************************************************************************************************************************************************************************************************
+																			ESTILO LOGIN
+*************************************************************************************************************************************************************************************************/
+#loginFuera{
+			
+	margin-left:33%;
+	background-color:#323232;
+	width:450px;
+	*width:450px;
+	height:200px;
+	*height:200px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border:2px solid #CCCCCC;
+	
+}
+#loginFuera h1{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#FDFDFD;
+	font:bold 20px Calibri, Helvetica, sans-serif;
+}
+#frmLogin_area{
+	font-size:13px;
+	background-color:#E9E9E9;
+	padding-top:0px;
+	padding-left:100px;
+	*padding-left:70px;
+	height:110px;	
+}
+#div_botones{
+	height:30px;
+	padding-top:0 px;	
+	padding-left:250px;	
+}
+#divbtn_enviar{
+	float:left;	
+	/*margin-bottom:20px;*/
+	heigth:auto;
+}
+#divbtn_enviar a{	
+	text-decoration:none;
+	border-color:none;
+	/*margin-bottom:20px;*/
+}
+#div_botones img{
+	border:0;	
+	/*margin-bottom:20px;*/
+	*margin-bottom:10px;
+	margin-left:5px;
+}
+#divbtn_cancelar{
+	float:left;
+	margin-rigth:5px;	
+	/*margin-bottom:20px;*/
+}
+#btn_enviar{	
+	/*margin-bottom:20px;*/
+}
+#btn_cancelar{	
+	/*margin-bottom:20px;*/
+}
+#div_msj{
+	color:#FF0033;
+}
+/*************************************************************************************************************************************************************************************************
+																			DETALLES SESION
+*************************************************************************************************************************************************************************************************/
+#ref_usuario{
+	font:bold 16px Calibri, Helvetica, sans-serif;
+	color:#C9C9C7;
+	float:clear;
+	width:100%;	
+}
+#ref_area{
+	font:bold 16px Calibri, Helvetica, sans-serif;
+	color:#C9C9C7;
+	float:clear;
+	width:100%;	
+}
+#aute_nav{
+	padding-top:25px;
+	padding-left:50%;
+}
+/*************************************************************************************************************************************************************************************************
+																			TABLA GENERICA
+*************************************************************************************************************************************************************************************************/
+.tabla_generica{
+	*margin-left:10%;
+	width:100%;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border:2px solid #CCCCCC; 	
+	background-color:#F1F5FA;
+}
+.tabla_generica th {
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#A7C942;
+	color:#ffffff;
+}
+.tabla_generica td, .tabla_generica th{
+	font-size:13px;	
+	padding:3px 7px 2px 7px;
+}
+.tabla_generica tr.alt td{
+	color:#000000;
+	background-color:#EBEBEA;
+	/*background-color:#A5B5F5;*/
+}
+.tabla_generica tr:hover{
+	background-color:#D2DFEE;	
+}
+
+/*************************************************************************************************************************************************************************************************
+																			TABLA GENERICA
+*************************************************************************************************************************************************************************************************/
+.tabla_form{
+	*margin-left:10%;
+	width:100%;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border:2px solid #CCCCCC; 	
+	background-color:#F1F5FA;
+}
+.tabla_form th {
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#A7C942;
+	color:#ffffff;
+}
+.tabla_form td, .tabla_form th{
+	font-size:13px;	
+	padding:3px 7px 2px 7px;
+}
+.tabla_form tr.alt td{
+	color:#000000;
+	background-color:#EBEBEA;
+	/*background-color:#A5B5F5;*/
+}
+/*************************************************************************************************************************************************************************************************
+																			TABLA BLANCA
+*************************************************************************************************************************************************************************************************/
+.tabla_blanca{
+	font-size:13px;	
+	*font-size:13px;	
+	margin-left:45%;
+}
