@@ -73,10 +73,8 @@
 		<div id="pie">
 			<div id="logo_pie">
 			</div>
-			<div id="pie_direccíon">
-			<p>
-				Azafran 306 Col. Granjas México Deleg. Iztacalco C.P. 08400 México, D.F. Tels (55) 4212-2700 al 49
-				</p>
+			<div id="pie_direccï¿½on">
+			 <!--Direcccion-->
 			</div>
 		</div>
 		
